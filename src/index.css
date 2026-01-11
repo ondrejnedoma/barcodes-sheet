@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  .controls {
+    display: none !important;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .sheet {
+    padding: 0 !important;
+  }
+}
